@@ -1,0 +1,7 @@
+[mod]
+title:test
+description:test
+tags:Units
+thumbnail:
+
+min_version:v1.14
