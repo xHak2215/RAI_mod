@@ -1,0 +1,12 @@
+#fabricator limit
+[global_resource_maxfabricator]
+displayPos: 3
+displayName: maxfabricator
+hidden: false
+displayNameShort: limit fabricator
+displayNameShort_ru: лимит
+displayColor: #026df9
+displayWhenZero: false
+displayTextPrefix: LIMIT 
+displayTextPostfix: $
+hidden:true
