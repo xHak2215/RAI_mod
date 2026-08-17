@@ -10,3 +10,16 @@ displayWhenZero: false
 displayTextPrefix: LIMIT 
 displayTextPostfix: $
 hidden:true
+
+# mode для логики переключения режимов и подобного
+[global_resource_mode]
+displayPos: 4
+displayName: mode
+hidden: false
+displayNameShort: mode
+displayNameShort_ru: mode
+displayColor: #33f902
+displayWhenZero: false
+displayTextPrefix: mode 
+displayTextPostfix: $
+hidden:true
