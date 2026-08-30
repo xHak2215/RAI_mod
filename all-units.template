@@ -23,3 +23,14 @@ displayWhenZero: false
 displayTextPrefix: mode 
 displayTextPostfix: $
 hidden:true
+
+[projectile_null_projectile]
+directDamage:0
+life: 80
+image: ROOT:icons/nah_sprite.png
+trailEffect: false
+explodeEffect: null
+explodeEffectOnShield: null
+
+[effect_null]
+image: ROOT:icons/nah_sprite.png
