@@ -1,6 +1,6 @@
 [mod]
-title:test
-description:test
+title:RAI mod v0.8
+description:mode
 tags:Units
 thumbnail:
 
