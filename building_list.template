@@ -1,0 +1,26 @@
+[canBuild_Reclaim]
+name: reclaim
+pos:  -1
+
+[canBuild_build]
+name: RAIextractor
+pos:  1
+
+[canBuild_build_logic]
+forceNano: true
+name: T1factory, T1_mech_factory
+isLocked: if not numberOfUnitsInTeam(lessThan=65, withTag='T2Factory', incompleteBuildings=true) and self.isControlledByAI()
+pos:  2
+
+[canBuild_other]
+name: experementalfactory, fabricatorT1_m
+pos: 4
+
+[canBuild_turret]
+name: light_turret, turret_T1, PVO_turret_T1, laser_turret, remont_pulser
+
+#[canBuild_T1_cocon]
+#forceNano: true
+#name: T1coc
+#isLocked: if self.isControlledByAI
+
