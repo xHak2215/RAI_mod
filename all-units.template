@@ -32,5 +32,20 @@ trailEffect: false
 explodeEffect: null
 explodeEffectOnShield: null
 
+
+#            EFFECTS
+
+[effect_smog_frame]
+image: ROOT:/effect/smog_frames.png
+life: 250
+atmospheric: true
+physics: true 
+physicsGravity: -3
+
+total_frames: 5
+animateFrameStart: 0 
+animateFrameSpeed: 0.15
+animateFrameEnd: 4
+
 [effect_null]
 image: ROOT:icons/nah_sprite.png
