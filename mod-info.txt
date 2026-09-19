@@ -1,7 +1,7 @@
 [mod]
-title:RAI mod v0.9
-description:mode
-tags:Units
+title: RAI mod V1
+description: good mode
+tags: Units
 thumbnail:
 
 min_version:v1.14
