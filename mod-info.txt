@@ -1,5 +1,5 @@
 [mod]
-title: RAI mod V1
+title: RAI mod V1.0
 description: good mode
 tags: Units
 thumbnail:
