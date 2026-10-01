@@ -1,3 +1,6 @@
 [canBuild_Reclaim]
 name: reclaim
 pos:  -1
+
+[canBuild_T1]
+name: T1factory_NEW
