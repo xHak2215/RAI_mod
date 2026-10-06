@@ -37,14 +37,16 @@ explodeEffectOnShield: null
 
 [effect_smog_frame]
 image: ROOT:/effect/smog_frames.png
-life: 250
+life: 185
 atmospheric: true
 physics: true 
-physicsGravity: -3
+physicsGravity: -0.1
+hOffset: 1
 
+animateFramePingPong: true
 total_frames: 5
 animateFrameStart: 0 
-animateFrameSpeed: 0.15
+animateFrameSpeed: 0.1
 animateFrameEnd: 4
 
 [effect_null]
