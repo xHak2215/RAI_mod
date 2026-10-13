@@ -1,0 +1,127 @@
+[hiddenAction_dead_smert_strahnaia]
+autoTriggerOnEvent: destroyed
+
+setResourcesWithLogic: ammo = int(((int(rnd(1, 12)) - 1) / (12 - 1) + 1) + 0.5)
+
+[hiddenAction_dead1]
+autoTrigger: if self.ammo() == 1 
+
+spawnEffects: dead1
+
+
+[hiddenAction_dead2]
+autoTrigger: if self.ammo() == 2 
+
+spawnEffects: dead2
+
+
+[hiddenAction_dead3]
+autoTrigger: if self.ammo() == 3 
+
+spawnEffects: dead3
+
+
+[hiddenAction_dead4]
+autoTrigger: if self.ammo() == 4 
+
+spawnEffects: dead4
+
+
+[hiddenAction_dead5]
+autoTrigger: if self.ammo() == 5 
+
+spawnEffects: dead5
+
+
+[hiddenAction_dead6]
+autoTrigger: if self.ammo() == 6 
+
+spawnEffects: dead6
+
+
+[hiddenAction_dead7]
+autoTrigger: if self.ammo() == 7 
+
+spawnEffects: dead7
+
+
+[hiddenAction_dead8]
+autoTrigger: if self.ammo() == 8 
+
+spawnEffects: dead8
+
+
+[hiddenAction_dead9]
+autoTrigger: if self.ammo() == 9 
+
+spawnEffects: dead9
+
+
+[hiddenAction_dead10]
+autoTrigger: if self.ammo() == 10 
+
+spawnEffects: dead10
+
+
+[hiddenAction_dead11]
+autoTrigger: if self.ammo() == 11 
+
+spawnEffects: dead11
+
+[hiddenAction_dead12]
+autoTrigger: if self.ammo() == 12 
+
+spawnEffects: dead12
+
+[effect_dead1]
+image: ROOT:NEW/other/dead_human1.png
+life: 25000
+
+[effect_dead2]
+image: ROOT:NEW/other/dead_human2.png
+life: 25000
+
+[effect_dead3]
+image: ROOT:NEW/other/dead_human3.png
+life: 25000
+
+[effect_dead4]
+image: ROOT:NEW/other/dead_human4.png
+life: 25000
+
+[effect_dead5]
+image: ROOT:NEW/other/dead_human5.png
+life: 25000
+
+[effect_dead6]
+image: ROOT:NEW/other/dead_human6.png
+life: 25000
+
+[effect_dead7]
+image: ROOT:NEW/other/dead_human7.png
+life: 25000
+
+
+[effect_dead8]
+image: ROOT:NEW/other/dead_human8.png
+life: 25000
+
+
+[effect_dead9]
+image: ROOT:NEW/other/dead_human9.png
+life: 25000
+
+
+[effect_dead10]
+image: ROOT:NEW/other/dead_human10.png
+life: 25000
+
+
+[effect_dead11]
+image: ROOT:NEW/other/dead_human11.png
+life: 25000
+
+
+[effect_dead12]
+image: ROOT:NEW/other/dead_human12.png
+life: 25000
