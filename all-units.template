@@ -51,3 +51,15 @@ animateFrameEnd: 4
 
 [effect_null]
 image: ROOT:icons/nah_sprite.png
+
+[effect_explore_b]
+image: ROOT:/effect/fire.png
+
+total_frames: 4
+animateFrameStart: 0 
+animateFrameSpeed: 1
+animateFrameEnd: 3
+
+animateFramePingPong: true
+
+life: 80
