@@ -54,12 +54,13 @@ image: ROOT:icons/nah_sprite.png
 
 [effect_explore_b]
 image: ROOT:/effect/fire.png
+scaleFrom: 1.3
 
 total_frames: 4
 animateFrameStart: 0 
-animateFrameSpeed: 1
+animateFrameSpeed: 0.8
 animateFrameEnd: 3
 
 animateFramePingPong: true
 
-life: 80
+life: 200
